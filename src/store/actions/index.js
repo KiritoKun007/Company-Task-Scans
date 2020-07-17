@@ -1,3 +1,5 @@
 export {
-    getAllScans
+    getAllScans,
+    getScanCriteria,
+    cleanScanDetail
 } from './scans'

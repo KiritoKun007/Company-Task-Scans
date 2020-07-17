@@ -6,8 +6,6 @@ import ScanCriteria from '../../../containers/ScanCriteria/ScanCriteria'
 
 const ScansList = ({ scans }) => {
 
-    console.log(scans)
-
     let scanItems = scans.map(scan => (
         <ScanItem 
             key={scan.id} 
@@ -18,7 +16,7 @@ const ScansList = ({ scans }) => {
     ))
 
     return (
-        <div className={styles.PhoneSection}>
+        <div className='PhoneSection'>
             <ul>
                 {scanItems}
             </ul>

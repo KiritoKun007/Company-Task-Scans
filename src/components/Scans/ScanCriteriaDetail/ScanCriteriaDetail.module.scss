@@ -1,0 +1,27 @@
+.BackButton {
+    background-color: #07232f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 3px 3px 3px #0b1215;
+    cursor: pointer;
+}
+
+.ScanDetailHeader {
+    background-color: #07232f;
+    color: white;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    .Tag {
+        font-size: 12px;
+    }
+    .Green {
+        color: green;
+    }
+    .Red {
+        color: red;
+    }
+}

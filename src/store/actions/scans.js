@@ -13,3 +13,20 @@ export const getAllScans = () => {
             .catch(error => console.log(error))
     }
 }
+
+export const getScanCriteria = (id) => {
+    return dispatch => {
+        dispatch({
+            type: actionTypes.GET_SCAN_CRITERIA,
+            scanId: id
+        })
+    }
+}
+
+export const cleanScanDetail = () => {
+    return dispatch => {
+        dispatch({
+            type: actionTypes.CLEAN_SCAN
+        })
+    }
+}
