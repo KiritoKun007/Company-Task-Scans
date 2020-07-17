@@ -1,0 +1,21 @@
+.SingleScan {
+    padding: 10px;
+    border-bottom: 1px dotted #ececec;
+    color: white;
+    &:hover {
+        font-weight: bold;
+    }
+    .Tag {
+        font-size: 12px;
+    }
+    .Green {
+        color: green;
+    }
+    .Red {
+        color: red;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}

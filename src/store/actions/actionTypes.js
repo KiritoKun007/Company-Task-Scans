@@ -1,0 +1,2 @@
+export const GET_ALL_SCANS = 'GET_ALL_SCANS';
+export const GET_SCAN_CRITERIA = 'GET_SCAN_CRITERIA'
